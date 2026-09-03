@@ -79,7 +79,7 @@ class IdentityCard extends StatelessWidget {
                     children: <Widget>[
                       Icon(Icons.badge, color: Colors.blue),
                       SizedBox(height: 4),
-                      Text('150096724090'),
+                      Text('ID2026001'),
                     ],
                   ),
                   Column(
@@ -99,11 +99,24 @@ class IdentityCard extends StatelessWidget {
                   color: Colors.blue.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Row(
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Icon(Icons.email, color: Colors.blue),
-                    SizedBox(width: 8),
-                    Text('saradevdarshan2020@gmail.com'),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.location_on, color: Colors.blue),
+                        SizedBox(width: 8),
+                        Text('Mumbai, India'),
+                      ],
+                    ),
+                    SizedBox(height: 8),
+                    Row(
+                      children: <Widget>[
+                        Icon(Icons.email, color: Colors.blue),
+                        SizedBox(width: 8),
+                        Text('saradevdarshan2020@gmail.com'),
+                      ],
+                    ),
                   ],
                 ),
               ),

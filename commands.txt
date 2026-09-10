@@ -1,0 +1,3 @@
+(install cocobeans plugin / package ) 
+flutter doctor
+flutter create my_second_app (name should always be small letters underline and , nothing else,)
